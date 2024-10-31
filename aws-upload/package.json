@@ -13,6 +13,7 @@
     "@aws-sdk/credential-provider-env": "^3.667.0",
     "@aws-sdk/s3-presigned-post": "^3.674.0",
     "@aws-sdk/s3-request-presigner": "^3.674.0",
+    "@vercel/blob": "^0.25.1",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",
