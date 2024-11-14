@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { onSubmit } from './actions' 
-import VideoPlayer from './components/video';
 
 export default function UploadVideoPage() {
   const [videoUrl, setVideoUrl] = useState<string | null>(null);
@@ -21,8 +20,7 @@ export default function UploadVideoPage() {
       }}>
         <input type="file" name="file" />
         <button type="submit">Upload</button>
-      </form>-
-      {videoUrl && <VideoPlayer videoUrl={videoUrl} />}
+      </form>
     </div>
   );
 }
